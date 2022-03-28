@@ -1,0 +1,22 @@
+<nav style="background-color:rgb(33,33,33);">
+<h4 style="color:white;float:right;position:relative;top:-20px;">/ Hello Guest</h4>
+<a href="./">
+<img src="logo.png" class="logo">
+</a>
+<a href="signUp/index.php" style="color:rgb(233,29,66);float:right; position;relative; top:-80px;">
+SiGN UP
+</a>
+<a href="logIn/index.php" style="color:rgb(233,29,66);float:right; position;relative; top:-80px;">
+SIGN IN/
+</a>
+
+<ul>
+
+<li><a href="home"> HOME</a></li>
+<li><a href="home"> CONTACT US</a></li>
+<li><a href="home"> MOVIES  </a></li>
+<li><a href="home"> CINEMAS  </a></li>
+
+
+</ul>
+</nav>

@@ -1,0 +1,708 @@
+/*############MEMBER KOON QI###########///////////////////////////////////////////////////////////*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  color: #ffffff;
+  background-color: #292828;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#membershipCard {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #e91d42;
+  text-align: center;
+  border-radius: 6px;
+}
+
+#barcode {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#pointsText {
+  color: black;
+}
+
+#homeMemberTable {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #363636;
+  border-spacing: 10px;
+  padding: 2px;
+  border-collapse: collapse;
+  text-align: center;
+  width: 90%;
+}
+
+#homeMemberHead {
+  background-color: #656565;
+}
+
+#memberRow {
+  border: solid 5px #292828;
+}
+
+#profileTable {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#inputField {
+  border: 0;
+  background-color: #343434;
+  padding: 10px 50px 10px 50px;
+}
+
+#purchaseTable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#cancel {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #e91d42;
+  border: 0;
+  float: left;
+  margin: 10px 0px 50px 50px;
+  padding: 10px;
+}
+
+#next {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #e91d42;
+  border: 0;
+  float: right;
+  margin: 10px 50px 50px 0px;
+  padding: 10px;
+}
+
+#paymentTable {
+  margin-left: 100px;
+  margin-right: auto;
+}
+
+/*############MEMBER KEAN###########///////////////////////////////////////////////////////////*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #292828 !important;
+}
+
+.movieBackground {
+  background-color: rgb(80, 80, 80);
+  display: flex;
+  margin-left: 10%;
+  margin-right: 200px;
+  margin-top: 50px;
+  transition: transform 0.2s; /* Animation */
+  font-size: 35px;
+  padding: 20px;
+  color: white;
+}
+
+.movieBackground:hover {
+  background-color: #3f3f3f;
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+.movieBackground img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 200px;
+}
+
+.movieDetails, .movieDetailsTrailer{
+  background-color: #3f3f3f;
+  width: 1300px;
+  height: 270px;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.movieDetails table, .movieDetailsTrailer table{
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.movieDetailsTrailer{
+  height: 400px;
+}
+.movieDetails textarea{
+  height: 150px;
+}
+
+.movieDetails img{
+  margin-left: 750px;
+  margin-top: 30px;
+  width: 150px;
+  height: 200px;
+}
+
+table.GeneratedTable {
+  font-size: 20px;
+}
+
+table.GeneratedTable td {
+  padding-left: 50px;
+  margin-right: auto;
+}
+
+td.imgRating {
+  padding-left: 100px;
+}
+
+li.knowledgeBasedPageData {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+}
+
+li.member,
+li.contactUs2,
+li.contactUs,
+.knowledgeBasedArea li{
+  list-style: none;
+  font-size: 25px;
+  margin-left: 100px;
+}
+
+
+li.contactUs2,li.contactUs{
+  padding-left: 25px;
+}
+
+img.Rating {
+  position: relative;
+  left: 780px;
+}
+
+
+.contactUsArea {
+  padding-bottom: 30px;
+  padding-right: 30px;
+  width: 1530px;
+  margin: auto;
+  background-color: #636363;
+  height: 800px;
+}
+
+.contactUsAreaSubmit {
+  width: 1600px;
+  margin: auto; 
+  text-align: right;
+}
+
+.contactUsArea li{
+  list-style: none;
+  font-size: 30px;
+}
+p.contactUsTitle {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li.a {
+  font-size: 40px;
+  padding-top: 30px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 30px;
+  display: inline-block;
+}
+
+li.b {
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+li.a.active {
+  color: red;
+}
+
+li.a:hover,
+li.knowledgeBasedPageData:hover {
+  animation: color-change 0.5s;
+  color: red;
+  cursor: pointer;
+  background-color: #3f3f3f;
+}
+li.knowledgeBasedPageData:hover {
+  background-color: #535353;
+}
+li.spacing,
+li.knowledgeBasedPage {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+li.spacing3 {
+  padding-right: 600px;
+}
+
+@keyframes color-change {
+  0% {
+    color: white;
+  }
+  100% {
+    color: red;
+  }
+}
+
+li.contactUs {
+  margin-left: -5px;
+  padding-top: 130px;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li.contactUs2 {
+  margin-left: -5px;
+  text-align: center;
+  padding-top: 35px;
+}
+
+.midBtn {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+input.searchIssue,
+input.ContactUs,
+select.category,
+input.subject,
+textarea{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  width: 1200px;
+  height: 70px;
+  background-color: rgb(218, 216, 216);
+  color: rgb(85, 85, 85);
+}
+
+textarea {
+  margin-top: 20px;
+  height: 240px;
+}
+
+
+select.category,
+input.subject {
+  margin-top: 20px;
+  height: 80px;
+}
+
+input.submitt {
+  font-size: 30px;
+  margin-top: 30px;
+  background-color: red;
+  color: white;
+  width: 200px;
+  height: 100px;
+}
+
+input.ContactUs {
+  margin-top: 20px;
+  width: 600px;
+  height: 80px;
+}
+
+.contactUsArea2 {
+  width: 1200px;
+  margin: auto;
+}
+
+.knowledgeBased {
+  margin-top: 50px;
+  background-color: red;
+  width: 600px;
+  height: 300px;
+}
+
+.hotlineNumber,
+.submitTicket {
+  margin-top: 50px;
+  background-color: red;
+  margin-left: 90px;
+  width: 500px;
+  height: 120px;
+}
+
+.knowledgeBased:hover,
+.hotlineNumber:hover,
+.submitTicket:hover,
+input.submitt:hover {
+  cursor: pointer;
+  background-color: rgb(196, 1, 1);
+}
+
+td.head {
+  background-color: red;
+  color: white;
+  /* width: 100px; */
+  height: 40px;
+  text-align: center;
+}
+
+td.bodyy {
+  background-color: #535353;
+  height: 300px;
+}
+
+li.knowledgeBasedPage {
+  width: 665px;
+}
+
+.knowledgeBasedArea {
+  width: 1842px;
+  margin: auto;
+}
+
+::placeholder {
+  color: rgb(175, 175, 175);
+}
+
+/*############################	NAVIGATION	##############*/
+
+body.nav {
+  background-color: rgb(41, 40, 40);
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  overflow: scroll;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #212121;
+  position: absolute;
+  width: auto;
+  top: 50px;
+  left: 500px;
+}
+li.nav {
+  border-left: 1px solid #bbb;
+  display: incline;
+  padding: 0px 10px;
+  text-align: center;
+  float: left;
+}
+li a.nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 100px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover.nav {
+  background-color: #333;
+}
+
+/*##########################	FOOTER	##############*/
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer */
+  background: #212121;
+  color: white;
+}
+
+.header {
+  color: #fbfcfd;
+  text-align: center;
+  position: absolute;
+
+  left: 30%;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 80px;
+  margin: 10px 0 30px;
+  line-height: 80px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+  color: red;
+  transition: 0.3s ease-out;
+}
+
+/*################	SLIDE SHOW	######*/
+* {
+  box-sizing: border-box;
+}
+/*body {font-family: Verdana, sans-serif; margin:0}*/
+.mySlides1,
+.mySlides2 {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+
+  position: relative;
+
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position: relative;
+  top: -70px;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+/*############MEMBER###########///////////////////////////////////////////////////////////*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  color: #ffffff;
+  background-color: #292828;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2em !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#membershipCard {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  background-color: #e91d42;
+  text-align: center;
+  border-radius: 6px;
+}
+
+#barcode {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+#pointsText {
+  color: black;
+}
+
+#homeMemberTable {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #363636;
+  border-spacing: 10px;
+  padding: 2px;
+  border-collapse: collapse;
+  text-align: center;
+  width: 90%;
+}
+
+#homeMemberHead {
+  background-color: #656565;
+}
+
+#memberRow {
+  border: solid 5px #292828;
+}
+
+#profileTable {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+#inputField {
+  border: 0;
+  background-color: #343434;
+  padding: 10px 50px 10px 50px;
+}
+
+#purchaseTable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#cancel {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #e91d42;
+  border: 0;
+  float: left;
+  margin: 10px 0px 50px 50px;
+  padding: 10px;
+}
+
+#next {
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #e91d42;
+  border: 0;
+  float: right;
+  margin: 10px 50px 50px 0px;
+  padding: 10px;
+}
+
+#paymentTable {
+  margin-left: 100px;
+  margin-right: auto;
+}
